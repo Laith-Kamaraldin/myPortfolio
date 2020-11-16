@@ -41,7 +41,7 @@
     "react-loading-skeleton": "^2.1.1",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "^3.4.4",
+    "react-scripts": "^4.0.0",
     "react-typist": "^2.0.5",
     "typescript": "^3.9.7"
   },
@@ -66,6 +66,7 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
@@ -73,9 +74,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/RyanFitzgerald/devfolio"
+    "url": "https://github.com/Laith-Kamaraldin/myPortfolio"
   },
   "bugs": {
-    "url": "https://github.com/RyanFitzgerald/devfolio/issues"
+    "url": "https://github.com/Laith-Kamaraldin/myPortfolio"
   }
 }

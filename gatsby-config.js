@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/myPortfolio",
   siteMetadata: {
     // Site URL for when it goes live
     siteUrl: `https://elastic-meninsky-aa7c74.netlify.app/`,
@@ -134,7 +135,8 @@ module.exports = {
       },
     },
 
- 
+    
+
     
     {
       resolve: `gatsby-plugin-manifest`,
@@ -148,8 +150,5 @@ module.exports = {
         icon: `src/images/icon.png`,
       },
     },
-    {
-    pathPrefix: "/myPortfolio",
-    },
-  ],
+    ],
 };
