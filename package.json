@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "private": true,
-  "description": "Personal Portfolio",
+  "description": "Personal Project Portfolio",
   "version": "0.1.0",
   "author": "Laith Kamaraldin",
   "dependencies": {
