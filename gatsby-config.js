@@ -15,7 +15,8 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/laith-kamaraldin/`,
 
-    CV: `https://www.linkedin.com/in/laith-kamaraldin/`,
+    author: `@rfitzio`,
+
     // Content of the About Me section
     about: `I am a passionate Computer Science Graduate, with a diverse set of work experience. This includes programming, software development, and consulting. I have come to understand that there are different ways
     of dealing with people and have learnt and continue to learn effective means of communicating with them. I am on a continuous quest of self-improvement and learning, if reaching my goal requires a particular

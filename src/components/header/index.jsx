@@ -3,6 +3,7 @@ import get from 'lodash/get';
 import React from 'react';
 
 import profileImg from '../../images/profile.jpg';
+import pdf from '../../images/Laith_Kamaraldin_CV.pdf';
 
 const classes = {
   wrapper: 'block mb-6 md:flex',
@@ -18,7 +19,7 @@ const classes = {
 };
 
 const Header = ({ metadata = {}, noBlog = false }) => {
-  const CV = get(metadata, 'author', false);
+  const twitter = get(metadata, 'author', false);
   const github = get(metadata, 'github', false);
   const linkedin = get(metadata, 'linkedin', false);
 
@@ -35,16 +36,7 @@ const Header = ({ metadata = {}, noBlog = false }) => {
         </h1>
         <p className={classes.description}>{metadata.description}</p>
         <ul className={classes.list}>
-          {CV && (
-            <li className={classes.item}>
-              <a
-                className={classes.link}
-                href={`https://twitter.com/${CV}`}
-              >
-                CV
-              </a>
-            </li>
-          )}
+        
           {github && (
             <li className={classes.item}>
               <a className={classes.link} href={github}>
@@ -56,6 +48,15 @@ const Header = ({ metadata = {}, noBlog = false }) => {
             <li className={classes.item}>
               <a className={classes.link} href={linkedin}>
                 LinkedIn
+              </a>
+            </li>
+          )}
+          {twitter && (
+            <li className={classes.item}>
+              <a
+                className={classes.link}
+                href={pdf} target = "_blank">
+                CV
               </a>
             </li>
           )}
