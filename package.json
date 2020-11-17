@@ -1,9 +1,9 @@
 {
-  "name": "devfolio",
+  "name": "portfolio",
   "private": true,
-  "description": "A modern and production-ready personal portfolio + blog template built with GatsbyJs and TailwindCSS",
+  "description": "Personal Portfolio",
   "version": "0.1.0",
-  "author": "Ryan Fitzgerald",
+  "author": "Laith Kamaraldin",
   "dependencies": {
     "antd": "^4.8.4",
     "bootstrap": "^4.5.3",
