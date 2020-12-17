@@ -18,13 +18,7 @@ module.exports = {
     author: `@rfitzio`,
 
     // Content of the About Me section
-    about: `I am a passionate Computer Science Graduate, with a diverse set of work experience. This includes programming, software development, and consulting. I have come to understand that there are different ways
-    of dealing with people and have learnt and continue to learn effective means of communicating with them. I am on a continuous quest of self-improvement and learning, if reaching my goal requires a particular
-    skill, I make sure to learn it effectively. 
-    
-
-    I am currently looking for an exceptional graduate role that will further develop my Technical, Management and People skills to help me build a
-    strong understanding of the industry, in hopes of one day reaching my goal of becoming a future leader in it.`,
+    about: `I’m a passionate Computer Science graduate, with work experience in  software development and consulting. I’m a self-motivated learner who enjoys taking on new projects and learning new skills, who is looking for an organization that will fully utilize my drive and ambition whilst providing career advancement opportunities.`,
   //  Optional: List your projects, they must have `name` and `description`. `link` is optional.
     
    // Optional: List your experience, they must have `name` and `description`. `link` is optional.
@@ -59,7 +53,7 @@ module.exports = {
       {
         name: 'Other',
         description:
-          'Docker, GIT, Agile / Scrum, JIRA , Mircosoft Office',
+          'Docker, GIT, Agile / Scrum, JIRA',
       },
     ],
 
