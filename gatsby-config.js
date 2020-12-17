@@ -18,7 +18,9 @@ module.exports = {
     author: `@rfitzio`,
 
     // Content of the About Me section
-    about: `I’m a passionate Computer Science graduate, with work experience in  software development and consulting. I’m a self-motivated learner who enjoys taking on new projects and learning new skills, who is looking for an organization that will fully utilize my drive and ambition whilst providing career advancement opportunities.`,
+    about: `I’m a passionate Computer Science graduate, with work experience in  software development and consulting. 
+            I’m a self-motivated learner who enjoys taking on new projects and learning new skills, 
+            who is looking for an organization that will fully utilize my drive and ambition whilst providing career advancement opportunities.`,
   //  Optional: List your projects, they must have `name` and `description`. `link` is optional.
     
    // Optional: List your experience, they must have `name` and `description`. `link` is optional.
